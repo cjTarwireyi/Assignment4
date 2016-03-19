@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="part1_object_oriented_programming" />
+        <module name="part2_composition" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="assignment4" target="1.5" />
       <module name="part1_object_oriented_programming" target="1.5" />
+      <module name="part2_composition" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
