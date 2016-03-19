@@ -8,11 +8,23 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class AppConfig {
-    @Bean(name="calcWages")
-    public WagesCalculation getCalculator()
+    @Bean(name="employeeWages")
+    public WagesCalculation getWages()
     {
         return new SalesPerson();
 
 
     }
+    @Bean(name="EmployeeDetails")
+    public Employee getDetails()
+    {
+        return new Employee("Cornelious","Tarwireyi");
+
+    }
+    @Bean (name="commission")
+    public SalesPerson getCommision()
+    {
+        return new SalesPerson(1000.0,"Cornelious","Tarwireyi");
+    }
 }
+

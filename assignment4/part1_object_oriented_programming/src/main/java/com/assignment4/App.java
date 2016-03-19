@@ -9,11 +9,14 @@ public class App
     public static void main( String[] args )
     {
 
-        SalesPerson sp = new SalesPerson(1000,"aaaa","ssss",20,8);
-        Casheer c= new Casheer("aaa","www",10,8);
+     System.out.println("INHERITANCE, ENCAPSULATION & PLOLYMORHISM\n");
+        SalesPerson sPerson = new SalesPerson((double) 1000,"Cornelious","Tarwireyi");
+        Casheer casheer= new Casheer("Awe","Some");
        // demonstrating polyorpism in which one method is used to
         // calculate salary with commission and salary without commission
-        System.out.println( "Hello World!" + sp.calcWages() );
-        System.out.println( "Hello World!" + c.calcWages() );
+        System.out.println( "Sales Person\nName:\t"+sPerson.getName()+"\nLastName\t"+sPerson.getSurname()+"\nCommission\t"+
+                sPerson.commission()+"\nWages:\t" + sPerson.calcWages(10,8) );
+       System.out.println( "\n\nCasheer\n"+ "Name:\t" + casheer.getName()+"\nLastName:\t"+casheer.getSurname()+
+               "\nWages:\t"+ casheer.calcWages(10,8) );
     }
 }

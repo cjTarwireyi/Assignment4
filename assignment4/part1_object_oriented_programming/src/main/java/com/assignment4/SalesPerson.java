@@ -10,9 +10,9 @@ public class SalesPerson extends Employee implements WagesCalculation{
     private double totalSales;
     public SalesPerson(){}
 
-    public SalesPerson(double sales,String fName,String lName,double hourlyRate,int hoursWorked)
+    public SalesPerson(Double sales,String fName,String lName)
     {
-        super( fName,lName,hourlyRate, hoursWorked);
+        super( fName,lName);
         totalSales=sales;
     }
     public double commission()
@@ -21,8 +21,9 @@ public class SalesPerson extends Employee implements WagesCalculation{
         return totalSales*0.1;
     }
 
-    public double calcWages() {
-        return commission()+super.getRate()*super.getHours();
+    public double calcWages(double rate,int hrs) {
+
+        return commission()+rate*hrs;
     }
 
 }

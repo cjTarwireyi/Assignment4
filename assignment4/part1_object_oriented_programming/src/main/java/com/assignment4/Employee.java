@@ -14,24 +14,16 @@ public class Employee {
     {
 
     }
-    public Employee(String fName,String lName,double hourlyRate,int hoursWorked)
-    {
-        name=fName;
-        surname=lName;
-        rate=hourlyRate;
-        hours=hoursWorked;
+    public Employee(String fName,String lName) {
+        name = fName;
+        surname = lName;
     }
 
     public String toString() {
         return "Salary for :" + name + "   " + surname ;
     }
 
+    public String getName(){return name;}
+    public String getSurname(){return surname;}
 
-    public int getHours() {
-        return hours;
-    }
-
-    public double getRate() {
-        return rate;
-    }
 }
