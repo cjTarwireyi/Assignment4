@@ -8,6 +8,10 @@
   <modules>
     <module>part1_object_oriented_programming</module>
     <module>part2_composition</module>
+
+    <module>part3_srp_violeted</module>
+
+    <module>ppart3_srp_obeyed</module>
   </modules>
   <packaging>pom</packaging>
 
