@@ -11,7 +11,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/part3_ocp_obeyed/pom.xml" />
         <option value="$PROJECT_DIR$/part3_srp_obeyed/pom.xml" />
+        <option value="$PROJECT_DIR$/ppart3_ocp_obeyed/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
       </set>
     </option>

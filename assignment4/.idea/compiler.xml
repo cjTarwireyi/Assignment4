@@ -27,6 +27,7 @@
         <module name="part3_srp_obeyed" />
         <module name="part3_srp_violeted" />
         <module name="part3srp" />
+        <module name="part_ocp_violeted" />
         <module name="ppart3_srp_obeyed" />
       </profile>
     </annotationProcessing>
@@ -34,9 +35,12 @@
       <module name="assignment4" target="1.5" />
       <module name="part1_object_oriented_programming" target="1.5" />
       <module name="part2_composition" target="1.5" />
+      <module name="part3_ocp_obeyed" target="1.5" />
       <module name="part3_srp_obeyed" target="1.5" />
       <module name="part3_srp_violeted" target="1.5" />
       <module name="part3srp" target="1.5" />
+      <module name="part_ocp_violeted" target="1.5" />
+      <module name="ppart3_ocp_obeyed" target="1.5" />
       <module name="ppart3_srp_obeyed" target="1.5" />
     </bytecodeTargetLevel>
   </component>

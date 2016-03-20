@@ -12,6 +12,10 @@
     <module>part3_srp_violeted</module>
 
     <module>ppart3_srp_obeyed</module>
+    <module>part_ocp_violeted</module>
+
+
+
   </modules>
   <packaging>pom</packaging>
 
