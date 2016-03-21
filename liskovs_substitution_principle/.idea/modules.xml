@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/liskov_obeyed/liskov_obeyed.iml" filepath="$PROJECT_DIR$/liskov_obeyed/liskov_obeyed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liskov_violeted/liskov_violeted.iml" filepath="$PROJECT_DIR$/liskov_violeted/liskov_violeted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liskovs_substitution_principle.iml" filepath="$PROJECT_DIR$/liskovs_substitution_principle.iml" />
+    </modules>
+  </component>
+</project>
