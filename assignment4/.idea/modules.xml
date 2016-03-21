@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/part1_object_oriented_programming/part1_object_oriented_programming.iml" filepath="$PROJECT_DIR$/part1_object_oriented_programming/part1_object_oriented_programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2_composition/part2_composition.iml" filepath="$PROJECT_DIR$/part2_composition/part2_composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/part3_srp_violeted/part3_srp_violeted.iml" filepath="$PROJECT_DIR$/part3_srp_violeted/part3_srp_violeted.iml" />
-      <module fileurl="file://$PROJECT_DIR$/part_ocp_violeted/part_ocp_violeted.iml" filepath="$PROJECT_DIR$/part_ocp_violeted/part_ocp_violeted.iml" />
       <module fileurl="file://$PROJECT_DIR$/ppart3_srp_obeyed/ppart3_srp_obeyed.iml" filepath="$PROJECT_DIR$/ppart3_srp_obeyed/ppart3_srp_obeyed.iml" />
     </modules>
   </component>
