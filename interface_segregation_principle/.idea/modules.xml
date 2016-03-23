@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/interface_segregation_principle.iml" filepath="$PROJECT_DIR$/interface_segregation_principle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obeyed/obeyed.iml" filepath="$PROJECT_DIR$/obeyed/obeyed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/violeted/violeted.iml" filepath="$PROJECT_DIR$/violeted/violeted.iml" />
+    </modules>
+  </component>
+</project>
